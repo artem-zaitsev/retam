@@ -1,0 +1,6 @@
+// styles of buttons 
+// vk, twt, gmail
+
+.contacts {
+	
+}

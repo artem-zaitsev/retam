@@ -1,0 +1,63 @@
+﻿/* черный фон, надпись с мигающим  белым*/
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+}
+
+canvas {
+	position: fixed;
+}
+
+#lcnvs {
+	top: 0px;
+	left: 0px;
+}
+
+#rcnvs {
+	top: 0;
+	left: 75%;
+}
+
+.letters {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -10%;
+	margin-left: -25%;
+	width: 50%;
+	height: 20%;
+	color: #FFFFFF;
+	//background-color: #FF11AA;
+	font-size: 42pt;
+	text-align: center;
+	cursor: pointer;
+}
+
+.flying_words {
+	color: #999999;
+	position: fixed;
+	font-family: cursive, fantasy;
+	font-size: 21pt;
+}
+
+#energy {
+	top: 25%;
+	left: 25%;
+	margin: -5% 0 0 -12.5%;
+	display: none;
+}
+
+#philos {
+	top: 25%;
+	left: 60%;
+	display: none;
+}
+
+#phys {
+	top: 75%;
+	left:50%;
+	margin: 0 0 -5% -25%;
+	display: none;	
+}
